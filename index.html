@@ -12,10 +12,30 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
     <link rel="manifest" href="./favicon/site.webmanifest">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./css/style.css">
     <!-- Title -->
     <title>Storyboards Webpage - Maria Goemans</title>
   </head>
   <body>
-    <p>Hello, World! More to be added...</p>
+    <!-- Link to JS file -->
+    <script src="./js/script.js"></script>
+    <h1>Calculating the Area of a Trapezoid with User Input</h1>
+    <p>Welcome! This web page will take your input and use the dimensions you choose to calculate the area of a trapezoid. See the image below for the calculations we will be using. Also, check out <a href="https://www.varsitytutors.com/hotmath/hotmath_help/topics/perimeter-area-volume">this link</a> for more information on how to calculate the area of various shapes.</p>
+    <img src="./images/area-trapezoid.png">
+    <h3>Your Input</h3>
+    <p>Please fill in the form below to set the height and the lengths of sides a and b for a trapezoid. We will then calculate the area of the shape for you!</p>
+    <!-- Form for user input -->
+    <form action="javascript:areaSent()">
+      <label for="height">Height of the trapezoid</label>
+      <input type="float" id="height" placeholder="Height..."><br><br>
+      <label for="side-a">Length of side A</label>
+      <input type="float" id="side-a" placeholder="Side A length..."><br><br>
+      <label for="side-b">Length of side B</label>
+      <input type="float" id="side-b" placeholder="Side B length..."><br><br>
+      <input type="submit" value="Calculate">
+    </form>
+    <h3>Our Calculations</h3>
+    <div id="display-results"></div>
   </body>
 </html>
