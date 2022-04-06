@@ -1,8 +1,44 @@
 img {
-  width: 60%;
+  width: 50%;
+  margin-top: 30px;
 }
 
 body {
   width: 80%;
   margin: 5% 10%;
+}
+
+#div-one {
+  padding: 20px 10%;
+  background-color: #fbfac8;
+  text-align: center;
+}
+
+p, h3, form {
+  font-family: "Arial", "Arial Narrow", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Arial Narrow", "Arial", sans-serif;
+  color: white;
+  background-color: #db75be;
+  padding: 20px;
+}
+
+#div-two {
+  padding: 20px 10%;
+  background-color: #e0f2fa;
+  margin-top: 30px;
+}
+
+#div-three {
+  padding: 20px 10%;
+  background-color: #eafae0;
+  margin-top: 30px;
+}
+
+#display-results {
+  font-weight: bold;
+  color: #1d3c61;
 }
